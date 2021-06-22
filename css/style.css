@@ -10,6 +10,8 @@ body {
     background-color: #F6F8F9;
 }
 
+/*header */
+
 header {
     height: 75px;
     background-color: white;
@@ -22,9 +24,49 @@ header {
 }
 
 
-.titolo-logo {
+.title-logo {
     display: inline-block;
     color:#041931;
     vertical-align: middle;
     font-size: 40px
 }
+
+/*main*/
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.buttons {
+    height: 50px;
+    padding: 15px 55px;
+}
+
+
+.button-task {
+    background-color: #47ADF1;
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+}
+
+.button-section {
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 70px;
+    color: #D2D6DA;
+    border: 1px solid #D2D6DA;
+}
+
+.text-button {
+    font-size: 8px;
+    vertical-align: middle;
+}
+
