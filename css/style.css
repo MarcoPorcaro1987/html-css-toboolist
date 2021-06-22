@@ -1,0 +1,30 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+body {
+    background-color: #F6F8F9;
+}
+
+header {
+    height: 75px;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.img-logo {
+    vertical-align: middle;
+}
+
+
+.titolo-logo {
+    display: inline-block;
+    color:#041931;
+    vertical-align: middle;
+    font-size: 40px
+}
