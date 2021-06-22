@@ -78,12 +78,13 @@ header {
 .sections {
     background-color: white;
     height: 400px;
-    padding: 55px;
+    padding: 10px 55px;
     line-height: 30px;
 }
 
 ul {
     list-style: none;
+    font-size: 12px;
 }
 
 .check {
@@ -122,4 +123,12 @@ ul {
 
 .orange {
     background-color: #F29E33;
+}
+
+.pink {
+    background-color: #D863A1;
+}
+
+.yellow {
+    background-color: #B0C926;
 }
