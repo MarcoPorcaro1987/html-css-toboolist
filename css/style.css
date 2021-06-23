@@ -13,9 +13,8 @@ body {
 /*header */
 
 header {
-    height: 75px;
     background-color: white;
-    padding: 10px;
+    padding: 10px 20px;
     
 }
 
@@ -25,10 +24,9 @@ header {
 
 
 .title-logo {
-    display: inline-block;
+    display:inline-block;
     color:#041931;
     vertical-align: middle;
-    font-size: 40px
 }
 
 /*main*/
@@ -44,7 +42,6 @@ header {
 /*bottoni*/
 
 .buttons {
-    height: 50px;
     padding: 15px 55px;
     border-bottom: 2px solid #F6F8F9;
 }
@@ -52,8 +49,7 @@ header {
 
 .button-task {
     background-color: #47ADF1;
-    height: 20px;
-    width: 50px;
+    padding: 5px;
     border-radius: 5px;
     border-width: 0;
     color: white;
@@ -62,35 +58,45 @@ header {
 .button-section {
     background-color: white;
     border-radius: 5px;
-    height: 20px;
-    width: 70px;
+    padding: 5px;
     color: #D2D6DA;
     border: 1px solid #D2D6DA;
 }
 
 .text-button {
     font-size: 8px;
-    vertical-align: middle;
 }
 
 /* Sezioni*/
 
 .sections {
     background-color: white;
-    height: 400px;
-    padding: 10px 55px;
-    line-height: 30px;
+    padding: 15px 55px;
 }
 
 ul {
     list-style: none;
     font-size: 12px;
+    margin-top: 15px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+h3 {
+    margin-top: 10px;
 }
 
 .check {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     border: 1px solid;
     margin-right: 5px;
+    text-align: center;
+    line-height: 15px;
 }
 
 .true {
@@ -102,6 +108,7 @@ ul {
     color: red;
     border-color: red;
 }
+
 .target {
     color: white;
     font-size: 10px;
